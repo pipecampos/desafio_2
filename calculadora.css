@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    height: 500px;
+}
+.bloquesuperior{
+    display: flex;
+    flex-direction: column;
+    height: 33.3333%;
+    color:  #59e3ce;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.bloqueinferior{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 1px;
+    height: 66.666%;
+    width: 100%;
+    background-color: #232938;
+    border-radius: 5%;
+}
+
+.container {
+    background-color: #161a24;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 8% 5%;
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: larger;
+    border-style: solid;
+    border-color: #161a24;
+    border-width: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.numero7,.numero8,.numero9,.numero0,.numero1,.numero2,.numero3,.numero4,.numero5,.numero6,.dividir,.sumar,.restar,.multiplicar,.masmenos,.c,.punto{
+    margin: auto;
+    color: #8a97bb;
+    
+}
+.igual{
+    grid-row: span 2;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    background-color: #59e3ce;
+    justify-items: center;
+    text-align: center;
+    border-top-left-radius: 400px 300px;
+    border-top-right-radius: 400px 300px;
+    border-bottom-left-radius: 400px 300px;
+    border-bottom-right-radius: 400px 300px;
+}
+.borrar{
+    background-color: #cd2c58;
+    border-radius: 49%;
+    margin:auto;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.dividir,.multiplicar,.restar,.sumar,.masmenos{
+    border-radius: 49%;
+    border-color: #333b4d;
+    border-width: 3px;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    background: #333b4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.simboloborrar{
+    width: 100%;
+    height: 100%;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn0,#btnc,#btnpunto{
+	font-size: 1.4em;
+	border-style: solid;
+    border-color:#232938;
+	background: #232938;
+	cursor: pointer;
+    color: #8a97bb;
+}
+#btnmultiplica,#btnsuma,#btnresta,#btndivide,#btnmasmenos{
+    font-size: 1.4em;
+	border-style: solid;
+    border-color:#333b4d;
+	background:#333b4d;
+    border-radius: 49%;
+	cursor: pointer;
+    color: #8a97bb; 
+}
+#btnborrar{
+    background-color: #cd2c58;
+    border-radius: 50%;
+	border-color:#cd2c58;
+}
+#btnResultado{
+    background-color:#59e3ce;
+    border-radius: 50%;
+	border-color:#59e3ce;
+    width: 100%;
+    height: 100%;
+    
+}
